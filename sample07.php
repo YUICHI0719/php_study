@@ -25,11 +25,11 @@
 //   print "\n";
 // }
 
-for ($i = 1; $i <= 365; $i++):
-  $date = strtotime('+' . $i . 'day');
-  print (date('n/j(D)', $date));
-  print "\n";
-endfor;
+  for ($i = 1; $i <= 365; $i++):
+    $date = strtotime('+' . $i . 'day');
+    print (date('n/j(D)', $date));
+    print "\n";
+  endfor;
 ?>
 </pre>
 </main>

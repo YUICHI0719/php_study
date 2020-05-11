@@ -20,8 +20,8 @@
 <pre>
 <?php $sum = 100 + 1050 + 200; ?>
 <?php $tax = 1.1; ?>
-合計価格は: <?php print($sum); ?>円です
-税込価格は: <?php print($sum * $tax); ?>円です
+  合計価格は: <?php print($sum); ?>円です
+  税込価格は: <?php print($sum * $tax); ?>円です
 </pre>
 </main>
 </body>    
